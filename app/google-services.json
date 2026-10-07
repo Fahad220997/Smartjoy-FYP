@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "442052704905",
+    "project_id": "smartjoy-d0a60",
+    "storage_bucket": "smartjoy-d0a60.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442052704905:android:5f961559183b3749f52458",
+        "android_client_info": {
+          "package_name": "com.smartjoy.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeduQmCfdEyKYpWGRNLP-qBAT4tfAkkA0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

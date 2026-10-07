@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">SmartJoy</string>
+
+    <!-- Notification Strings (SafetyNotificationHelper) -->
+    <string name="danger_channel_name">Danger Zone Alerts</string>
+    <string name="tracking_channel_name">Child Safety Alerts</string>
+    <string name="danger_notification_title">⚠️ Danger Zone Alert</string>
+    <string name="danger_notification_text">Child near %1$s</string>
+    <string name="tracking_notification_title">Child Safety Alert</string>
+    <string name="tracking_notification_text">%1$s has moved out of safe range.</string>
+
+    <!-- Login Screen -->
+    <string name="login_subtitle">Child safety and navigation platform</string>
+    <string name="login_title">Log In</string>
+    <string name="email_address_label">Email Address</string>
+    <string name="password_label">Password</string>
+    <string name="toggle_password_desc">Toggle password</string>
+    <string name="forgot_password_btn">Forgot password?</string>
+    <string name="login_btn_text">Log In</string>
+    <string name="dont_have_account_text">Don\'t have an account?</string>
+    <string name="sign_up_btn">Sign Up</string>
+
+    <!-- Register Screen -->
+    <string name="create_account_title">Create Account</string>
+    <string name="register_subtitle">Join the SmartJoy safety network</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="toggle_password_visibility_desc">Toggle password visibility</string>
+    <string name="password_supporting_text">At least 6 characters</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="register_btn_text">Register</string>
+    <string name="already_have_account_text">Already have an account? Log In</string>
+
+    <!-- Forgot Password Screen -->
+    <string name="reset_password_topbar">Reset Password</string>
+    <string name="back_desc">Back</string>
+    <string name="recover_account_title">Recover Your Account</string>
+    <string name="forgot_password_subtitle">Enter your email address and we\'ll send you a link to reset your password.</string>
+    <string name="send_reset_link_btn">Send Reset Link</string>
+
+    <!-- Verify Email Screen -->
+    <string name="verify_email_title">Verify Email</string>
+    <string name="verify_email_subtitle">We need to verify your email address to ensure your account security.</string>
+    <string name="verification_sent_to">Verification link sent to:</string>
+    <string name="verify_continue_btn">I\'ve Verified, Continue</string>
+    <string name="resend_email_btn">Resend Email</string>
+    <string name="sign_out_another_account">Sign out and use another account</string>
+
+    <!-- Profile Screen (Dashboard) -->
+    <string name="dashboard_topbar">Dashboard</string>
+    <string name="logout_desc">Log out</string>
+    <string name="profile_photo_desc">Profile Photo</string>
+    <string name="change_photo_desc">Change Photo</string>
+    <string name="save_btn">Save</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="default_user_name">User Account</string>
+    <string name="edit_name_btn">Edit Name</string>
+    <string name="safety_services_title">Safety Services</string>
+    <string name="smart_navigation_title">Smart Navigation</string>
+    <string name="smart_navigation_desc">Venue map &amp; shortest-path routing</string>
+    <string name="danger_zone_title">Danger Zone Alerts</string>
+    <string name="danger_zone_desc">Proximity monitoring &amp; alerts</string>
+    <string name="child_tracking_title">Child Tracking</string>
+    <string name="child_tracking_desc">BLE device status &amp; distance</string>
+
+    <!-- Navigation Screen -->
+    <string name="map_nav_topbar">Map &amp; Navigation</string>
+    <string name="recenter_zoo_desc">Recenter on Zoo</string>
+    <string name="update_location_desc">Update location</string>
+    <string name="search_destination_placeholder">Search Destination…</string>
+    <string name="walking_route_text">%1$dm walking route</string>
+    <string name="clear_desc">Clear</string>
+    <string name="select_destination_title">Select Destination</string>
+
+    <!-- Danger Zone Screen -->
+    <string name="safety_zones_topbar">Safety Zones</string>
+    <string name="recenter_desc">Recenter</string>
+    <string name="nearby_safety_zones_title">Nearby Safety Zones</string>
+    <string name="status_danger">DANGER: HIGH RISK</string>
+    <string name="status_caution">CAUTION: NEARBY RISK</string>
+    <string name="status_safe">SAFE AREA</string>
+    <string name="status_scanning">SCANNING…</string>
+    <string name="located_in_zone">Located in %1$s</string>
+    <string name="monitoring_child_position">Monitoring child position…</string>
+    <string name="zone_inside">INSIDE</string>
+    <string name="distance_meters_text">%1$dm</string>
+
+    <!-- Child Tracking Screen -->
+    <string name="device_pairing_topbar">Device Pairing</string>
+    <string name="nearby_safety_devices_title">Nearby Safety Devices</string>
+    <string name="searching_wearables">Searching for wearables…</string>
+    <string name="start_scan_wearable">Start scan to find child wearable</string>
+    <string name="stop_scanning_btn">Stop Scanning</string>
+    <string name="scan_devices_btn">Scan for Devices</string>
+    <string name="discovered_devices_title">Discovered Devices</string>
+    <string name="pair_btn">Pair</string>
+    <string name="paired_linked_text">Paired &amp; Linked</string>
+    <string name="monitoring_paused_text">Monitoring Paused</string>
+    <string name="signal_strength_text">Signal: %1$s</string>
+    <string name="pause_btn">Pause</string>
+    <string name="resume_btn">Resume</string>
+    <string name="unpair_btn">Unpair</string>
+    <string name="rssi_calculating">calculating…</string>
+    <string name="rssi_dbm_format">%1$d dBm</string>
+    <string name="proximity_near">Near</string>
+    <string name="proximity_safe">Safe Distance</string>
+    <string name="proximity_far">Getting Far</string>
+    <string name="proximity_out_of_range">Out of Range</string>
+
+    <!-- Zone Types -->
+    <string name="zone_type_danger">Danger</string>
+    <string name="zone_type_caution">Caution</string>
+    <string name="zone_type_safe">Safe Area</string>
+
+    <!-- AuthViewModel Error/Info Messages -->
+    <string name="err_password_required">Password is required</string>
+    <string name="err_name_required">Full name is required</string>
+    <string name="err_passwords_dont_match">Passwords do not match</string>
+    <string name="info_verification_sent">Verification email sent to %1$s</string>
+    <string name="info_account_created_email_failed">Account created, but the verification email couldn\'t be sent. Use \"Resend\" on the next screen.</string>
+    <string name="info_verification_resent">Verification email resent to %1$s</string>
+    <string name="err_email_not_verified">Email not verified yet. Check your inbox.</string>
+    <string name="info_password_reset_sent">Password reset link sent to %1$s</string>
+    <string name="err_name_empty">Name cannot be empty</string>
+    <string name="info_name_updated">Name updated successfully</string>
+    <string name="info_photo_updated">Photo updated successfully</string>
+    <string name="err_email_required">Email is required</string>
+    <string name="err_invalid_email">Enter a valid email address</string>
+    <string name="err_password_too_short">Password must be at least 6 characters</string>
+    <string name="err_auth_weak_password">Password is too weak. Use at least 6 characters.</string>
+    <string name="err_auth_invalid_credentials">Invalid email or password.</string>
+    <string name="err_auth_user_collision">An account with this email already exists.</string>
+    <string name="err_auth_invalid_user">No account found with this email, or it has been disabled.</string>
+    <string name="err_auth_network">Network error. Check your internet connection and try again.</string>
+    <string name="err_auth_failed">Authentication failed. Please try again.</string>
+    <string name="err_something_went_wrong">Something went wrong. Please try again.</string>
+</resources>
